@@ -144,17 +144,31 @@ p {
 .about-paragraphs p {
   margin: 10px;
 }
-
-.email-link {
-  display: flex;
-
-  color: var(--primary-color);
-  font-size: 28px;
-  text-decoration: none;
+footer {
+  margin: 60px 0;
 }
 
+.email-link {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  font-size: 24px;
+}
 .email-link:hover {
-  text-decoration: underline;
+  color: var(--branding-color);
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background-color: var(--secondary-color);
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 150ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: white;
+  background-color: var(--branding-color);
 }
 
 @media (max-width: 900px) {
