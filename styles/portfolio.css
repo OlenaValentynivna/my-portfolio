@@ -233,20 +233,6 @@ footer .contact-box p {
 }
 .contact {
   background-color: var(--secondary-color);
-  border-radius: 15px;
-  margin-top: 120px;
-}
-.work {
-  background-color: var(--secondary-color);
-  border-radius: 15px;
-  margin-top: 120px;
-}
-.about {
-  margin-top: 120px;
-}
-.signature {
-  text-decoration: none;
-  color: var(--branding-color);
 }
 
 @media (max-width: 900px) {
