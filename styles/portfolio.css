@@ -95,12 +95,20 @@ nav a:hover,
   line-height: 1.5;
   font-size: 24px;
 }
+
+.content-conteiner-about {
+  padding: 60px 40px;
+  background-color: var(--secondary-color);
+  border-radius: 15px;
+  margin: 30px;
+  margin-top: 120px;
+}
 .content-conteiner {
   padding: 60px 40px;
   background-color: var(--secondary-color);
   border-radius: 15px;
-  margin-top: 120px;
   margin: 30px;
+  margin-top: 120px;
 }
 
 .content-conteiner h1 {
@@ -128,7 +136,6 @@ nav a:hover,
 .content p {
   font-size: 14px;
 }
-
 .navigation-links {
   display: flex;
   margin-top: 40px;
@@ -234,6 +241,10 @@ footer .contact-box p {
 .contact {
   background-color: var(--secondary-color);
 }
+.signature {
+  color: var(--branding-color);
+  text-decoration: none;
+}
 
 @media (max-width: 900px) {
   h1 {
@@ -264,5 +275,17 @@ footer .contact-box p {
   }
   .work h1 {
     font-size: 42px;
+    line-height: 1;
+  }
+  .work {
+    padding: 30px 20px;
+    margin-top: 80px;
+  }
+  .content-conteiner {
+    padding: 60px 20px;
+  }
+  .contact h1 {
+    font-size: 42px;
+    line-height: 1;
   }
 }
