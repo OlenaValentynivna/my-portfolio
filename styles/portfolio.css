@@ -72,6 +72,12 @@ nav a:hover,
 .nav-link:hover {
   color: var(--branding-color);
 }
+.active {
+  color: var(--branding-color) !important;
+}
+.nav-item {
+  padding: 0 20px;
+}
 
 .hero {
   background: var(--secondary-color);
@@ -186,6 +192,7 @@ nav a:hover,
 .about-paragraphs p {
   margin: 10px;
 }
+
 footer {
   margin: 20px 20px;
   padding: 60px 40px;
